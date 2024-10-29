@@ -1,4 +1,4 @@
-import { printString } from "./featureOne.js";
-import { hello, world } from "./featureTwo.js";
+import { default as printHelloWorld } from "./featureOne.js";
+import * as words from "./featureTwo.js";
 
-printString(hello, world);
+printHelloWorld(hello, world):
