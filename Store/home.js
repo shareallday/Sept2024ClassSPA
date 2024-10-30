@@ -1,4 +1,5 @@
 export default {
     header: "My home page",
-    view: "home"
+    view: "home",
+    weather: {}
 };
